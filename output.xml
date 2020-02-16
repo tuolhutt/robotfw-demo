@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200216 19:56:22.916" generator="Robot 3.1.2 (Python 2.7.12 on linux2)">
+<suite source="/home/tuomo/git/robot-oma/data_driven.robot" id="s1" name="Data Driven">
+<test id="s1-t1" name="Rectangle">
+<kw name="Calculate">
+<arguments>
+<arg>r 1.0 2.0</arg>
+<arg>2.0</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.942" starttime="20200216 19:56:22.942"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.943" starttime="20200216 19:56:22.942"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.943" starttime="20200216 19:56:22.941"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>r 2.5 3.0</arg>
+<arg>7.5</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.943" starttime="20200216 19:56:22.943"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.944" starttime="20200216 19:56:22.944"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.944" starttime="20200216 19:56:22.943"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.944" critical="yes" starttime="20200216 19:56:22.941"></status>
+</test>
+<test id="s1-t2" name="Ellipse">
+<kw name="Calculate">
+<arguments>
+<arg>e 1.0 1.0</arg>
+<arg>3.14</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.945" starttime="20200216 19:56:22.945"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.946" starttime="20200216 19:56:22.945"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.946" starttime="20200216 19:56:22.945"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>e 2.0 2.0</arg>
+<arg>12.56</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.947" starttime="20200216 19:56:22.946"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.947" starttime="20200216 19:56:22.947"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.947" starttime="20200216 19:56:22.946"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.947" critical="yes" starttime="20200216 19:56:22.944"></status>
+</test>
+<test id="s1-t3" name="Triangle">
+<kw name="Calculate">
+<arguments>
+<arg>t 2.0 2.0</arg>
+<arg>2.0</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.948" starttime="20200216 19:56:22.948"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.949" starttime="20200216 19:56:22.948"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.949" starttime="20200216 19:56:22.948"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>t 2.0 3.5</arg>
+<arg>3.5</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.950" starttime="20200216 19:56:22.949"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.950" starttime="20200216 19:56:22.950"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.950" starttime="20200216 19:56:22.949"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.950" critical="yes" starttime="20200216 19:56:22.947"></status>
+</test>
+<test id="s1-t4" name="Failing">
+<kw name="Calculate">
+<arguments>
+<arg>t 1.1 1.1</arg>
+<arg>5.0</arg>
+</arguments>
+<kw name="Push Arguments" library="AreaCalculatorLibrary">
+<doc>Pushes the arguments.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<status status="PASS" endtime="20200216 19:56:22.951" starttime="20200216 19:56:22.951"></status>
+</kw>
+<kw name="Result Should Be" library="AreaCalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<msg timestamp="20200216 19:56:22.953" level="FAIL">0.61 != 5.0</msg>
+<status status="FAIL" endtime="20200216 19:56:22.953" starttime="20200216 19:56:22.952"></status>
+</kw>
+<status status="FAIL" endtime="20200216 19:56:22.953" starttime="20200216 19:56:22.951"></status>
+</kw>
+<status status="FAIL" endtime="20200216 19:56:22.954" critical="yes" starttime="20200216 19:56:22.950">0.61 != 5.0</status>
+</test>
+<test id="s1-t5" name="Calculation error">
+<kw name="Calculation should fail">
+<arguments>
+<arg>asd</arg>
+<arg>Invalid expression.</arg>
+</arguments>
+<kw name="Should Cause Error" library="AreaCalculatorLibrary">
+<doc>Verifies that calculating the given ``expression`` causes an error.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<assign>
+<var>${error}</var>
+</assign>
+<msg timestamp="20200216 19:56:22.955" level="INFO">${error} = Invalid expression.</msg>
+<status status="PASS" endtime="20200216 19:56:22.955" starttime="20200216 19:56:22.955"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${expected}</arg>
+<arg>${error}</arg>
+</arguments>
+<msg timestamp="20200216 19:56:22.955" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20200216 19:56:22.955" starttime="20200216 19:56:22.955"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.956" starttime="20200216 19:56:22.954"></status>
+</kw>
+<kw name="Calculation should fail">
+<arguments>
+<arg>${EMPTY}</arg>
+<arg>Invalid expression.</arg>
+</arguments>
+<kw name="Should Cause Error" library="AreaCalculatorLibrary">
+<doc>Verifies that calculating the given ``expression`` causes an error.</doc>
+<arguments>
+<arg>C${expression}</arg>
+</arguments>
+<assign>
+<var>${error}</var>
+</assign>
+<msg timestamp="20200216 19:56:22.956" level="INFO">${error} = Invalid expression.</msg>
+<status status="PASS" endtime="20200216 19:56:22.956" starttime="20200216 19:56:22.956"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${expected}</arg>
+<arg>${error}</arg>
+</arguments>
+<msg timestamp="20200216 19:56:22.957" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20200216 19:56:22.957" starttime="20200216 19:56:22.957"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.957" starttime="20200216 19:56:22.956"></status>
+</kw>
+<status status="PASS" endtime="20200216 19:56:22.957" critical="yes" starttime="20200216 19:56:22.954"></status>
+</test>
+<doc>Test cases using the data-driven testing.
+
+Notice that one of these tests fails on purpose to show how
+failures look like.</doc>
+<status status="FAIL" endtime="20200216 19:56:22.958" starttime="20200216 19:56:22.917"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="4">Critical Tests</stat>
+<stat fail="1" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Data Driven" pass="4">Data Driven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
